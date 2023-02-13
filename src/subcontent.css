@@ -1,0 +1,123 @@
+.headdiv{
+    display: flex;
+    display: grid;
+}
+.headtopic{
+    margin: auto;
+    margin-top: 0px;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+.headtopic1{
+    margin: auto;
+    margin-top: 0px;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+.lineh{
+    font-size: 80px;
+    color: rgb(90, 90, 90);
+    padding-top: 5px;
+}
+
+.topicdis{
+    margin-left: 70px;
+    color: rgb(90, 90, 90);
+}
+
+.kkp{
+    color: rgb(84, 65, 126);
+}
+
+.kkpmenu0{
+    color: rgb(84, 65, 126);
+    font-weight: bold;
+    font-size: 24px;
+}
+.kkpmenu{
+    color: rgb(110, 110, 110);
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+.kkpmargin{
+    margin: auto;
+    padding-right: 340px;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.spacekkp{
+    color: rgb(110, 110, 110);
+    font-size: 22px;
+    margin-left: 35px;
+}
+
+.kkpfocus{
+    font-size: 30px;
+    color: rgb(84, 65, 126);
+    font-weight: bold;
+}
+
+.headtopic1 .bkkp{
+    margin-left: 60px;
+    color: rgb(90, 90, 90);
+    height: 280px;
+    width: 240px;
+    border-bottom: 3px solid rgb(197, 197, 197);
+    border-top: 3px solid rgb(197, 197, 197); 
+    
+}
+
+.imgcontent7{
+    box-shadow: 10px 10px 5px #cacaca;
+}
+
+.marginseeall3{
+    margin: auto;
+    padding-top: 110px;
+    padding-left: 945px;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    color: rgb(90, 90, 90);
+}
+
+.imglblock{
+    margin: auto;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+
+.imglblock0{
+    width: 300px;
+}
+
+.imglblock1{
+    width: 300px;
+    padding-top: 25px;
+    margin-left: 45px;
+}
+
+.imglblock2{
+    width: 300px;
+    margin-left: 45px;
+}
+
+.imglblockdis{
+    color: rgb(84, 65, 126);
+    font-weight: bold;
+    font-size: 18px;
+}

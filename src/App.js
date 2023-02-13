@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import logo from './img/logoP.png';
+import { FiMenu } from "react-icons/fi";
+import { FiSearch } from "react-icons/fi";
+import { FiChevronDown } from "react-icons/fi";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <nav className="App-header">
+      <ul>
+        <li><a><FiMenu  className="logoHam"/></a></li>
+        <li><img className="logoHead" src={logo} alt="Phatra" /></li>
+      </ul>
+      <ul>
+        <li><a><FiSearch  className="logoSearch"/></a></li>
+        <li>TH</li>
+        <li><a><FiChevronDown  className="logoDrop"/></a></li>
+      </ul>
+    </nav>
+    
   );
+  
 }
 
 export default App;

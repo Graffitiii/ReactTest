@@ -2,12 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Slide from './SlideContent'
+import Slideimg from './carouselPage';
+import Menu from './menu';
+import Article from './article'
+import Subcontent from './subcontent';
 import reportWebVitals from './reportWebVitals';
+import Footer from './footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Slideimg />
+    <Menu />
+    <Article />
+    <Subcontent/>
+    <Footer />
   </React.StrictMode>
 );
 

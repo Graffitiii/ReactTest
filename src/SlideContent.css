@@ -1,0 +1,32 @@
+.slideBar{
+  display: flex;
+  background-color: #201f1a;
+  height: 550px;
+  justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+  }
+
+.leftarrowIcon{
+    font-size: 100px;
+    color: white;
+    transition: 0.3s;
+}
+
+.rightarrowIcon{
+    margin-right: 35px;
+    font-size: 100px;
+    color: white;
+    transition: 0.3s;
+}
+.leftarrowIcon:hover {
+    color: #6b6b6b;
+  }
+
+.rightarrowIcon:hover {
+    color: #6b6b6b;
+  }
